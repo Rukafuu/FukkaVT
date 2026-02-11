@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "imageUrl": "https://picsum.photos/seed/fukka1/600/800",
+    "artistName": "@SuperArtist",
+    "artistUrl": "https://twitter.com",
+    "dateAdded": "2023-10-25"
+  },
+  {
+    "id": "2",
+    "imageUrl": "https://picsum.photos/seed/fukka2/800/600",
+    "artistName": "MegaFan_99",
+    "artistUrl": "https://instagram.com",
+    "dateAdded": "2023-10-26"
+  },
+  {
+    "id": "3",
+    "imageUrl": "https://picsum.photos/seed/fukka3/600/600",
+    "artistName": "PixelPainter",
+    "artistUrl": "https://twitch.tv",
+    "dateAdded": "2023-10-27"
+  },
+  {
+    "id": "4",
+    "imageUrl": "https://picsum.photos/seed/fukka4/600/900",
+    "artistName": "SketchyBoi",
+    "artistUrl": null,
+    "dateAdded": "2023-10-28"
+  },
+  {
+    "id": "5",
+    "imageUrl": "https://picsum.photos/seed/fukka5/800/800",
+    "artistName": "ColorQueen",
+    "artistUrl": "https://youtube.com",
+    "dateAdded": "2023-10-29"
+  },
+  {
+    "id": "6",
+    "imageUrl": "https://picsum.photos/seed/fukka6/700/500",
+    "artistName": "Anon",
+    "artistUrl": null,
+    "dateAdded": "2023-10-30"
+  }
+]
