@@ -81,15 +81,15 @@ const App: React.FC = () => {
   const toggleTheme = () => setDarkMode(!darkMode);
 
   return (
-    <div className={`min-h-screen transition-colors duration-500 overflow-x-hidden
+    <div className={`min-h-screen relative transition-colors duration-500 overflow-x-hidden
       ${darkMode 
         ? 'bg-slate-900 text-pink-200' 
         : 'bg-gradient-to-br from-fukka-peach to-fukka-rose'
       }`}
     >
       
-      {/* Background decoration */}
-      <div className="fixed inset-0 pointer-events-none transition-opacity duration-500">
+      {/* Background decoration - Optimized for mobile */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none h-full w-full">
          <div className={`absolute top-0 left-0 w-96 h-96 rounded-full blur-[80px] -translate-x-1/2 -translate-y-1/2 transition-colors duration-500 ${darkMode ? 'bg-purple-900/30' : 'bg-white/30'}`}></div>
          <div className={`absolute bottom-0 right-0 w-96 h-96 rounded-full blur-[80px] translate-x-1/2 translate-y-1/2 transition-colors duration-500 ${darkMode ? 'bg-pink-900/30' : 'bg-yellow-100/30'}`}></div>
       </div>
